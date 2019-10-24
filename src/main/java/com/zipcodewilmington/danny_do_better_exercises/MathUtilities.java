@@ -61,8 +61,8 @@ public class MathUtilities {
      */
     public Float add(float baseValue, float difference)
     {
-        Float added = baseValue + difference;
-        return added;
+        return (baseValue + difference);
+
     }
 
     /**
@@ -70,8 +70,10 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public Double add(double baseValue, double difference) {
-        return null;
+    public Double add(double baseValue, double difference)
+    {
+        Double added = (double) (baseValue + difference);
+        return added;
     }
 
     /**
@@ -79,8 +81,10 @@ public class MathUtilities {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public Integer subtract(int baseValue, int difference) {
-        return null;
+    public Integer subtract(int baseValue, int difference)
+    {
+        Integer subt = baseValue - difference;
+        return subt;
     }
 
     /**
