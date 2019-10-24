@@ -1,5 +1,9 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
+import com.sun.tools.corba.se.idl.InterfaceGen;
+import java.lang.Short;
+
+
 /**
  * Created by dan on 6/14/17.
  */
@@ -10,8 +14,10 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public Integer add(int baseValue, int difference) {
-        return null;
+    public Integer add(int baseValue, int difference)
+    {
+        Integer added = baseValue + difference;
+        return added;
     }
 
     /**
@@ -19,8 +25,10 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public Long add(long baseValue, long difference) {
-        return null;
+    public Long add(long baseValue, long difference)
+    {
+        Long added = baseValue + difference;
+        return added;
     }
 
     /**
@@ -28,8 +36,11 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public Short add(short baseValue, short difference) {
-        return null;
+    public Short add(short baseValue, short difference)
+    {
+        short added = (short) (baseValue + difference);
+        //return Short.valueOf(added);
+        return added;
     }
 
     /**
@@ -37,8 +48,10 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public Byte add(byte baseValue, byte difference) {
-        return null;
+    public Byte add(byte baseValue, byte difference)
+    {
+        Byte added = (byte) (baseValue + difference);
+        return added;
     }
 
     /**
@@ -46,8 +59,10 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public Float add(float baseValue, float difference) {
-        return null;
+    public Float add(float baseValue, float difference)
+    {
+        Float added = baseValue + difference;
+        return added;
     }
 
     /**
