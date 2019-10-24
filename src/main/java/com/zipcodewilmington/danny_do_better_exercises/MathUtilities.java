@@ -92,8 +92,9 @@ public class MathUtilities {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public Long subtract(long baseValue, long difference) {
-        return null;
+    public Long subtract(long baseValue, long difference)
+    {
+        return (baseValue - difference);
     }
 
     /**
@@ -101,8 +102,9 @@ public class MathUtilities {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public Short subtract(short baseValue, short difference) {
-        return null;
+    public Short subtract(short baseValue, short difference)
+    {
+        return (short)(baseValue - difference);
     }
 
     /**
@@ -110,8 +112,9 @@ public class MathUtilities {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public Byte subtract(byte baseValue, byte difference) {
-        return null;
+    public Byte subtract(byte baseValue, byte difference)
+    {
+        return (byte) (baseValue - difference);
     }
 
     /**
@@ -119,8 +122,9 @@ public class MathUtilities {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public Float subtract(float baseValue, float difference) {
-        return null;
+    public Float subtract(float baseValue, float difference)
+    {
+        return (baseValue - difference);
     }
 
     /**
@@ -128,8 +132,9 @@ public class MathUtilities {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public Double subtract(double baseValue, double difference) {
-        return null;
+    public Double subtract(double baseValue, double difference)
+    {
+        return (baseValue - difference);
     }
 
 
@@ -138,8 +143,9 @@ public class MathUtilities {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public Integer divide(int dividend, int divisor) {
-        return null;
+    public Integer divide(int dividend, int divisor)
+    {
+        return (dividend / divisor);
     }
 
     /**
