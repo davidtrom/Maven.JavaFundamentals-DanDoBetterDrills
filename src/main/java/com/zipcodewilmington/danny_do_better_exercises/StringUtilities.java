@@ -1,4 +1,5 @@
 package com.zipcodewilmington.danny_do_better_exercises;
+import java.lang.String;
 
 /**
  * Created by dan on 6/14/17.
@@ -7,8 +8,9 @@ public class StringUtilities {
     /**
      * @return `Hello World` as a string
      */
-    public static String getHelloWorld() {
-        return null;
+    public static String getHelloWorld()
+    {
+        return ("Hello World");
     }
 
     /**
@@ -16,8 +18,9 @@ public class StringUtilities {
      * @param secondSegment a string to add
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
-    public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+    public static String concatenation(String firstSegment, String secondSegment)
+    {
+        return firstSegment + secondSegment;
     }
 
     /**
@@ -25,24 +28,29 @@ public class StringUtilities {
      * @param secondSegment a string to add
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
-    public static String concatenation(int firstSegment, String secondSegment){
-        return null;
+    public static String concatenation(int firstSegment, String secondSegment)
+    {
+
+        return (firstSegment + secondSegment);
     }
 
     /**
      * @param input a string to be manipulated
      * @return the first 3 characters of `input`
      */
-    public static String getPrefix(String input){
-        return null;
+    public static String getPrefix(String input)
+    {
+        return input.substring(0, 3);
     }
 
     /**
      * @param input a string to be manipulated
      * @return the last 3 characters of `input`
      */
-    public static String getSuffix(String input){
-        return null;
+    public static String getSuffix(String input)
+    {
+        int length = input.length();
+        return input.substring(length - 3);
     }
 
     /**
